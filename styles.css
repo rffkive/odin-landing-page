@@ -1,6 +1,11 @@
-body{
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
     font-family: Roboto;
-    background-color: #1f2937;
+    background:  linear-gradient(to right, #ffafbd, #ffc3a0);
 }
 
 .logo {
@@ -17,4 +22,87 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 25px;
+}
+
+ol {
+    display: flex;
+    gap: 8px;
+
+}
+
+.header_2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding: 8px 25px;  
+
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(221, 47, 76);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(126, 63, 73);
+    font-size: 1,1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.container_1 {
+    max-width: 600px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    border-radius: 12px;
+    width: 356px;
+    height: auto;
+}
+
+button {
+    background: #c62828; /* Strawberry red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ad1d1d;
+}
+
+.body_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    width: 100px;
+}
+
+.container_2 {
+    display: flex;
+    gap: 20px;
 }
