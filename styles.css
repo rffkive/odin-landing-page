@@ -165,7 +165,7 @@ button:active {
     display: flex;
     align-items: center;
     gap: 30px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
