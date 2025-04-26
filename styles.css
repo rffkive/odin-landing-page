@@ -151,7 +151,7 @@ button:active {
     gap: 30px;
     padding: 4rem 2rem;
     margin: 2rem auto;
-    max-width: 1200px;
+    width: 100%;
 }
 
 .body_1 h2 {
